@@ -1,5 +1,6 @@
 // Import the correct component name
 import React, { useState } from 'react';
+import '../App.css';
 import './Register.css'; // Import the custom CSS file
 
 const Register = () => {

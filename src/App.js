@@ -12,11 +12,13 @@ const App = () => (
       <h1>MUSIC MACHINE</h1>
     </header>
     <main>
+      <div class="main">
       <AboutUs />
       <Register />
       <ContactUs />
       <SocialMedia />
       <Media />
+      </div>
     </main>
     <footer>
       <p>&copy; 2023 My Music Website</p>

@@ -9,8 +9,10 @@
   color: white;
 }
 
-main {
-  padding: 20px;
+.main {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
