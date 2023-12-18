@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div className="homepage">
       <img
-        src="./LOGOMUSIC.png"
-        alt="Music Machine Logo"
-        className="img-fluid"
-      />
+  src={process.env.PUBLIC_URL + '/logo1.png'}
+  alt="Logo 1"
+  className="img-fluid"
+/>
     </div>
   );
 };

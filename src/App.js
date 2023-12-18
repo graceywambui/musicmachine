@@ -8,13 +8,18 @@ import Media from './components/Media.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+    
+   
+
 const App = () => (
   <div className="App">
+    {/* Homepage */}
+    <Home />
     <header className="App-header">
       <h1>MUSIC MACHINE</h1>
     </header>
     <main>
-      <div class="main">
+      <div className="main">
         <Home />
       <AboutUs />
       <Register />
