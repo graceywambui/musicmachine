@@ -27,11 +27,13 @@
   }
   
   button {
-    padding: 10px;
+    padding: 14px 20px;
+    font-size: 16px;
     background-color: #007bff; /* Add your desired button color */
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
   button:hover {
