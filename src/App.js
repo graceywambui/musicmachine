@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './components/Home.js';
 import AboutUs from './components/AboutUs.js';
 import Register from './components/Register.js';
 import ContactUs from './components/ContactUs.js';
@@ -14,6 +15,7 @@ const App = () => (
     </header>
     <main>
       <div class="main">
+        <Home />
       <AboutUs />
       <Register />
       <ContactUs />
