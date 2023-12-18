@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import '../App.css';
 import './Register.css'; // Import the custom CSS file
+import Button from 'react-bootstrap/Button';
 
 const Register = () => {
   const [name, setName] = useState('');
@@ -40,7 +41,9 @@ const Register = () => {
           Email:
           <input type="email" value={email} onChange={handleEmailChange} required />
         </label>
-        <button type="submit">Register</button>
+        <Button variant="primary" size="lg" onClick={handleSubmit}>
+      Register
+    </Button>
       </form>
     </section>
   );

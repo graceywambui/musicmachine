@@ -4,6 +4,7 @@ import Register from './components/Register.js';
 import ContactUs from './components/ContactUs.js';
 import SocialMedia from './components/SocialMedia.js';
 import Media from './components/Media.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 const App = () => (
