@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import AboutUs from './components/AboutUs.js';
+import Register from './components/Register.js';
+import ContactUs from './components/ContactUs.js';
+import SocialMedia from './components/SocialMedia.js';
+import Media from './components/Media.js';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <header className="App-header">
+      <h1>MUSIC MACHINE</h1>
+    </header>
+    <main>
+      <AboutUs />
+      <Register />
+      <ContactUs />
+      <SocialMedia />
+      <Media />
+    </main>
+    <footer>
+      <p>&copy; 2023 My Music Website</p>
+    </footer>
+  </div>
+);
 
 export default App;

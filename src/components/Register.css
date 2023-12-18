@@ -1,0 +1,40 @@
+/* Register.css */
+
+.register-section {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    background-color: black; /* Add your desired background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    width: 70%; /* Adjust the form width as needed */
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff; /* Add your desired button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Add your desired button hover color */
+  }
+  
