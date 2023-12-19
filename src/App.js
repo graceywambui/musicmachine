@@ -1,28 +1,26 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './components.Header.js';
-import Home from './components/Home.js';
-import AboutUs from './components/AboutUs.js';
-import Register from './components/Register.js';
-import ContactUs from './components/ContactUs.js';
-import SocialMedia from './components/SocialMedia.js';
-import Media from './components/Media.js';
- 
+import Header from './components/Header'; // Remove the .js extension
+import Home from './components/Home';
+import AboutUs from './components/AboutUs';
+import Register from './components/Register';
+import ContactUs from './components/ContactUs';
+import SocialMedia from './components/SocialMedia';
+import Media from './components/Media';
 
 const App = () => (
   <div className="App">
     {/* Homepage */}
-    <Header />
     <Home />
-    
     <main>
       <div className="main">
-      <AboutUs />
-      <Register />
-      <ContactUs />
-      <SocialMedia />
-      <Media />
+        <Header />
+        <AboutUs />
+        <Register />
+        <ContactUs />
+        <SocialMedia />
+        <Media />
       </div>
     </main>
     <footer>
