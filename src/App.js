@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/Header'; // Remove the .js extension
-import Home from './components/Home';
+
 import AboutUs from './components/AboutUs';
 import Register from './components/Register';
 import ContactUs from './components/ContactUs';
@@ -12,7 +12,7 @@ import Media from './components/Media';
 const App = () => (
   <div className="App">
     {/* Homepage */}
-    <Home />
+    
     <main>
       <div className="main">
         <Header />
